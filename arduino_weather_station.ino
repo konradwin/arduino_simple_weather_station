@@ -19,7 +19,7 @@ LiquidCrystal_I2C lcd(0x27,20,4); //set the LCD address to 0x27 for a 20 chars a
 
 DS3231 RTC; //create the R8025 object
 
-char weekDay[][14] = {"niedziela", "wtorek", "xxx", "sroda", "czwartek", "piatek", "sobota", "poniedzialek"}; //  uint8_t dayOfWeek() const   { return wday;}  /*Su=0 Mo=1 Tu=3 We=4 Th=5 Fr=6 Sa=7 *
+char weekDay[][14] = {"niedziela", "wtorek", "sroda", "czwartek", "piatek", "sobota", "niedziela", "poniedzialek"}; //  uint8_t dayOfWeek() const   { return wday;}  /*Su=0 Mo=1 Tu=3 We=4 Th=5 Fr=6 Sa=7 *
 
 #define DHTPIN11 9 // what pin we're connected to
 #define DHTTYPE11 DHT11 //DHT 11  (AM2302)
